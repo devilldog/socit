@@ -1,0 +1,26 @@
+.socit {
+    list-style-type: none;
+    padding: 6px;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+}
+
+.socit p {
+    margin-bottom: 0;
+}
+
+.timestamp {
+    color: #d1d1d1;
+}
+
+.socit img {
+    display: none;
+}
+
+@media (min-width: 550px) {
+    .socit img {
+        display: block;
+        border-radius: 4px;
+        width: 100%;
+    }
+}
