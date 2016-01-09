@@ -1,12 +1,11 @@
 {
-  "name": "sociter",
+    "name": "sociter",
   "version": "1.0.0",
-  "description": "A very simple twitter clone built with React and Flux",
+  "description": "Simple IT Communication app",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  },"author": "Robert Reilly <robertjreilly@gmail.com",
   "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.0",
@@ -29,5 +28,21 @@
     "passport-local": "^1.0.0",
     "react": "^0.13.3",
     "react-router": "^0.13.3"
-  }
+  },
+
+  "engines": {
+    "node": "0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
 }
+
+  
+
